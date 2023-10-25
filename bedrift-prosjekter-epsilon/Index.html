@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" type="image/x-icon" href="Logo E sirkel.png">
+<title>Epsilon</title>
+</head>
+<body>
+    <nav class="navbar fixed-nav">    
+        <div class="logo">
+            <img src="Orignal w.o. banner@4x.png">
+        </div>
+        <ul class="nav-links">
+            <div class="menu">
+                <li><a id="home"href="/">Home</a></li>
+                <li><a id="about" href="/About page/About.html">About</a></li>
+                <li class="services">
+                    <a id="product" href="Products page/Products.html">Flavours</a>
+                    <ul class="dropdown">
+                        <li><a href="Products page/Products.html">Cola</a></li>
+                        <li><a href="Products page/Products.html">Grape</a></li>
+                        <li><a href="Products page/Products.html">Guava</a></li>
+                        <li><a href="Products page/Products.html">Original</li>
+                    </ul>
+                </li>
+                <li><a id="modal-open">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="space"></div>
+    <div class="container">
+        <div class="homepage">
+            <div class="homepage-text">
+                <div class="homepeage-beskrivelse-color">
+                    <div class="homepage-beksrivelse">
+                        <h1>Epsilon</h1>
+                        <p>The soda that takes you to the next level!</p>
+                        <div class="cans-img">
+                            <img src="3 cans.png">
+                            <a href="Products page/Products.html">
+                                <button id="homepage-button">More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="homepage-text-image">
+                    <img src="Logo E sirkel.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="copyright-image">
+            <img src="Logo E sirkel.png">
+        </div>
+        <div class="copyright-icons-flex">
+            <div class="copyright-icons">
+                <a href="https://www.instagram.com/arian.beke/">
+                    <img id="icon-insta" src="insta-white.png">
+                </a>
+                <a href="https://www.facebook.com/nils.nirisrud">
+                    <img id="icon" src="face-white.png">
+                </a>
+                <a href="https://twitter.com/elonmusk">
+                    <img id="icon" src="twitter2-white.png">
+                </a>
+            </div>
+        </div>
+        <div class="copyright-text-flex">
+            <div class="copyright-text">
+                <p>© 2023 The Epsilon Company | All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    
+<div id="contact-modal" class="modal">
+    <div id="modal-content">
+        <div id="modal-header">
+            <span class="close-modal">&times;</span>
+            <h2>Epsilon Inc</h2>
+        </div>
+        <div id="modal-body">
+            <h3>send Us a Message</h3>
+            <form>
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" placeholder="Enter Your First Name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" placeholder="Enter Your Last Name">
+                </div>
+                <div class="form-group">
+                    <label for="email-name">Email</label>
+                    <input type="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea placeholder="Enter Your Message"></textarea>
+                </div>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+        <div id="modal-footer">
+            <h3>Epsilon Inc &copy; 2023</h3>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
